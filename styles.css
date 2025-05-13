@@ -1,34 +1,93 @@
+/* Header styles */
 header {
-	border-style: solid;
-	border-radius: 25px;
-	text-align: center;
-	padding: 15px;
-	margin: 30px;
+  border: 2px solid #000;
+  border-radius: 25px;
+  text-align: center;
+  padding: 12px;
+  margin: 30px;
 }
 
-ul {
-  list-style-type: none;
+h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+h1:hover {
+  letter-spacing: 3px;
+  transition-duration: 1s;
+}
+
+h3:hover {
+  text-decoration: underline;
+}
+
+h3 {
+  margin-left: 5px;
+}
+
+/* Navigation styles using Flexbox for even distribution */
+.nav-menu {
+  display: flex;
+  width: 100%;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  background-color: #333;
+  list-style: none;
+  background-color: #173753;
 }
 
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
+.nav-menu li {
+  flex: 1; /* Each item takes up equal space */
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  margin-left: 16px;
-  margin-right: 16px;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: #111;
+.nav-menu li a {
+  display: block;
+  padding: 14px 0;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-menu a.active {
+  background-color: #112A3F; /* Highlight for current page */
+  font-weight: bold;
+}
+
+.nav-menu li a:hover {
+  background-color: #23527A;
+}
+
+/* About Me section styles */
+.aboutme {
+  background-color: transparent;
+  padding: 0px 10px 10px 0; 
+  margin: 0;
+  max-width: 900px;
+  color: #000;
+  font-size: 18px;
+  margin-left: 8px;
+  line-height: 35px;
+  margin-bottom: 80px;
+}
+
+/* Goals container styles */
+.goals-container {
+  background-color: transparent;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+.goals-container ul {
+  list-style-type: disc !important;
+  padding-left: 20px;
+  margin: 0;
+  background-color: transparent !important;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.goals-container li {
+  display: list-item;
+  margin-bottom: 8px;
 }
