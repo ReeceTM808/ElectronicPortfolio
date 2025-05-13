@@ -1,22 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio - Home</title>
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <header>
-        <h1>Electronic Portfolio</h1>
-    </header>
-    <div class="header">
-</div>
-<ul>
-  <li><a class="active" href="#home">Home</a></li>
-  <li><a href="#WBL">WBL</a></li>
-  <li><a href="#Extracurriculars">Extracurriculars</a>
-    <li><a href="#contact">Contact</a></li>
-</ul>
+  <!-- Header -->
+  <header>
+    <h1>Reece Maruyama</h1>
+  </header>
+
+  <!-- Navigation bar -->
+  <nav>
+    <ul class="nav-menu">
+      <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="wbl.html">WBL</a></li>
+      <li><a href="extracurricular.html">Extracurricular</a></li>
+      <li><a href="extra.html">Extra</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <section>
+    <h2>Home</h2>
+    <h3>About Me</h3>
+    <div class="aboutme">
+      <p>Hi! My name is Reece Maruyama. I am in the class of 2026 at Waipahu High School. I am currently in the Academy of Industrial Engineering Technology which has provided me with a strong foundation in computer principles and problem-solving skills. As I look toward the future, I plan to pursue a major in Computer Science with hopes of becoming a Graphic Designer. I believe that the knowledge and skills I am gaining through my coursework and extracurricular activities will help me achieve this goal. Throughout high school, I played 4 years of Baseball and studied Cybersecurity in the AOIT pathway. Outside of academics and athletics, I enjoy working out, playing video games, watching TV, and listening to music. I am excited to continue growing academically and personally, and I look forward to the opportunities that lie ahead as I work toward achieving my dreams.</p>
+    </div>
+
+    <!-- Goals Section -->
+    <div class="goals-container">
+      <h3>My Goals</h3>
+      <ul>
+        <li>Graduate with academic honors from Waipahu High School</li>
+        <li>Perform well in my senior year for Baseball</li>
+        <li>Attend a university with a strong Computer Science program</li>
+        <li>Achieve a 4.0 cumulative GPA upon graduation (Valedictorian)</li>
+        <li>Develop skills in programming languages like Python and JavaScript</li>
+        <li>Contribute to my community and strengthen my relationships with friends and family</li>
+      </ul>
+    </div>
+
+    <!-- Resume Images Section -->
+    <div class="resume-section">
+      <h3>My Resume</h3>
+      <div style="display: flex; gap: 10px; justify-content: center;">
+        <img src="file:///C:/Users/277Student/Pictures/Screenshots/Screenshot%202025-05-13%20103502.png" 
+             alt="My Resume" 
+             style="max-width: 45%; height: auto; border:2px solid #ccc; border-radius:4px;">
+        <img src="file:///C:/Users/277Student/Pictures/Screenshots/Screenshot%202025-05-13%20103431.png" 
+             alt="My Resume" 
+             style="max-width: 45%; height: auto; border:2px solid #ccc; border-radius:4px;">
+      </div>
+    </div>
+  </section>
 </body>
 </html>
