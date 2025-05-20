@@ -163,6 +163,7 @@ section > * {
   display: flex;
   margin-bottom: 120px;
   padding-bottom: 80px;
+  flex-wrap: wrap;
 }
 
 .awards {
@@ -178,6 +179,7 @@ section > * {
 
 .sports {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .sports img {
