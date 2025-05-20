@@ -152,7 +152,7 @@ section > * {
   max-width: 800px;
 }
 
-#certifications img {
+.certifications img {
   width: 350px;
   height: auto;
   margin-right: 10px;
@@ -169,13 +169,13 @@ section > * {
   padding-bottom: 80px;
 }
 
-#awards img {
+.awards img {
   display: flex;
   width: 450px;
   height: auto;
 }
 
-#sports img {
+.sports img {
   width: 350px;
   height: auto;
   margin-right: 10px;
