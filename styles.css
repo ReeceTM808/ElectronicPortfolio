@@ -152,14 +152,14 @@ section > * {
   max-width: 800px;
 }
 
-.certifications img {
+#certifications img {
   width: 350px;
   height: auto;
   margin-right: 10px;
   vertical-align: middle;
 }
 
-.certifications {
+#certifications {
   display: flex;
   margin-bottom: 120px;
   padding-bottom: 80px;
@@ -168,7 +168,7 @@ section > * {
   justify-content: center;
 }
 
-.awards {
+#awards {
   display: flex;
   margin-bottom: 120px;
   padding-bottom: 80px;
@@ -177,19 +177,19 @@ section > * {
   justify-content: center;
 }
 
-.awards img {
+#awards img {
   width: 450px;
   height: auto;
 }
 
-.sports {
+#sports {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   justify-content: center;
 }
 
-.sports img {
+#sports img {
   width: 350px;
   height: auto;
   margin-right: 10px;
