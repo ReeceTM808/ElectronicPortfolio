@@ -174,3 +174,10 @@ section > * {
   width: 450px;
   height: auto;
 }
+
+.sports img {
+  width: 350px;
+  height: auto;
+  margin-right: 10px;
+  vertical-align: middle;
+}
