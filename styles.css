@@ -153,6 +153,7 @@ section > * {
 }
 
 .certifications img {
+  display: flex;
   width: 350px;
   height: auto;
   margin-right: 10px;
@@ -176,6 +177,7 @@ section > * {
 }
 
 .sports img {
+  display: flex;
   width: 350px;
   height: auto;
   margin-right: 10px;
