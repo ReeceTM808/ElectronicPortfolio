@@ -152,7 +152,7 @@ section > * {
   max-width: 800px;
 }
 
-#certifications img {
+.certifications img {
   width: 350px;
   height: auto;
   margin-right: 10px;
@@ -170,6 +170,7 @@ section > * {
 }
 
 .awards img {
-  width: 350px;
+  display: flex;
+  width: 450px;
   height: auto;
 }
