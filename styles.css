@@ -224,3 +224,8 @@ section > * {
   border-radius: 8px;
   border: 2px solid #ccc;
 }
+
+.personal-statement {
+  justify-content: center;
+  text-align: center;
+}
